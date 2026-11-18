@@ -1,0 +1,6 @@
+[
+  {"anchor": "b0:first_event", "line": "[exact excerpt of the script]", "shows": "[visible action]", "zoom": "[part and detail]", "text": "none", "sound": "none"},
+  {"anchor": "b1:failure", "line": "[problem]", "shows": "[failure and its consequence]", "zoom": "[close-up]", "text": "none", "sound": "none"},
+  {"anchor": "b2:fix", "line": "[solution]", "shows": "[real installation with support]", "zoom": "[part]", "text": "none", "sound": "none"},
+  {"anchor": "b3:retest", "line": "[test after the fix]", "shows": "[same test, now resolved]", "zoom": "[same framing as the failure]", "text": "none", "sound": "none"}
+]

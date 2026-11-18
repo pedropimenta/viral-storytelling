@@ -1,0 +1,15 @@
+{
+  "title": "[short title that states the question or the result]",
+  "format": "short | long",
+  "target_seconds": 100,
+  "beats": [
+    {"id": "b0", "role": "hook", "tone": "[calm, confident]", "text": "[strongest fact] {start}[word]…"},
+    {"id": "b1", "role": "failure", "tone": "[calm, confident]", "text": "[what blocks it] {failure}[word]…"},
+    {"id": "b2", "role": "fix", "tone": "[calm, confident]", "text": "[the solution installed] {fix}[word]…"},
+    {"id": "b3", "role": "retest", "tone": "[calm, confident]", "text": "[same test, now resolved] {retest}[word]…"},
+    {"id": "b4", "role": "close", "tone": "[calm, confident]", "text": "[what the model simplifies; recap in one sentence] {end}"}
+  ],
+  "loops": [
+    {"planted_in": "b0", "paid_off_in": "b3", "what": "[question or object]"}
+  ]
+}
